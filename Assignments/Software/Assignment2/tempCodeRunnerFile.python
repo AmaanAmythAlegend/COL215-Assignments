@@ -1,0 +1,9 @@
+def f(x):
+    x+=1
+    print("func", x)
+
+global x
+x = 5
+print("main", x)
+f(x)
+print("main", x)
